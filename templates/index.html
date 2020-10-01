@@ -1,16 +1,68 @@
 {% load static %}
-<!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
-    </head>
-    <body>
-        <div id="display"></div>
-        <script src="{% static 'dist/app.bundle.js'%}" async defer></script>
-    </body>
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+
+    <meta http-equiv="content-language" content="en-us">
+    <meta http-equiv="content-type" content="text/HTML" charset="utf-8">
+    <meta name="description" content="Digital Marketing">
+    <meta name="keywords" keywords="digital marketing, Seo, digital world,thedigivision, digital agency,digital, 
+    digital world,digitalduniya">
+    <meta name="author" content="The Digi Vision">
+    <meta name="copyright" content="The Digi Visions owned by Vaibhav Prkash">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shourtcut icon" type="image/png" href="/static/images/Favicons/logo.JPG">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+
+<body>
+
+
+    <header>
+        <nav>
+            <div>
+                <i class="fa fa-bars"></i>
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Drop 1 <i class="fa fa-sort-desc"></i></a>
+                    <ul>
+                        <li><a href="#">Product 1</a></li>
+                        <li><a href="#">Product 2</a></li>
+                        <li><a href="#">Product 3</a></li>
+                        <li><a href="#">Product 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Drop 2 <i class="fa fa-sort-desc"></i></a>
+                    <ul>
+                        <li><a href="#">Product 1</a></li>
+                        <li><a href="#">Product 2</a></li>
+                        <li><a href="#">Product 3</a></li>
+                        <li><a href="#">Product 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!---NAV BAR Ends Here----->
+
+
+    <script src="{% static 'dist/app.bundle.js'%}" async defer></script>
+
+</body>
+
 </html>
